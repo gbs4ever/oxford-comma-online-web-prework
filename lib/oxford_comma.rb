@@ -5,6 +5,6 @@ elsif array.count == 2
   array.join(" and ")
 else
   str =array.join (", ")
-str.gsub!("and")
+##str.gsub!("and")
 end
 end
