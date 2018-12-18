@@ -4,7 +4,8 @@ if  array.count == 1
 elsif array.count == 2
   array.join(" and ")
 else array.insert(-2,"and ")
-  str =array.join (", ")
+  
 ##str.gsub!("and")
 end
+  str =array.join (", ")
 end
