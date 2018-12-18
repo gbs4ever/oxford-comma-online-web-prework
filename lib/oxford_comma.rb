@@ -7,7 +7,7 @@ binding.pry
 if array.count == 2
   array.join(" and ")
 elsif array.count > 2
-  array[-1].insert (0,"and")
+  array[-1].insert(0 "and ")
   str =array.join (", ")
 ##str.gsub!("and")
 end
