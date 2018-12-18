@@ -3,7 +3,7 @@ if  array.count == 1
   array.join
 elsif array.count == 2
   array.join(" and ")
-else array.unshift (-2)
+else array.unshift ("and "-2)
   str =array.join (", ")
 ##str.gsub!("and")
 end
