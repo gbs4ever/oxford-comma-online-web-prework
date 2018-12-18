@@ -4,6 +4,6 @@ if  array.count == 1
 elsif array.count == 2
   array.join(" and ")
 else array.join (", ")
-  string.gsub!("and")
+  String.gsub!("and")
 end
 end
